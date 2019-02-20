@@ -1,5 +1,14 @@
-
+body{
+  background-image: url(../images/crystals.jpeg);
+  
+}
    
+.container{
+  margin:auto;
+  border:5px solid yellow;
+  width:960px;
+  height:600px;
+}
   h1 {
     text-align: center;
     background-color: #084745;
@@ -11,31 +20,33 @@
     font-size: 25px;
     font-weight: bold;
   }
-    
-
-.row{
-    border: solid 1px #cccc;
+  
+#crystal, #game {
+  background-color: black;
+  border: solid 10px #cccc;
+  color:white;
+  font-size: 15px;
+  font-weight: bold;
+  margin:auto;
   width:960px;
   height:600px;
-}
-.col {
-  border: solid 15px #cccc;
-  color:black;
-  font-size: 15px;
-  width:45%;
   }
-  
-    .crystals{
-     border: solid 2px black;
+
+  img{
+    width:100px;
+    height:100px;
     
-    }
-  
-  #check1, #check2, #check3, #check4 {
-  border: solid 5px yellow;
-  width:100px;
-
-
+  }
+#check1, #check2, #check3 , #check4{
+border:5px solid yellow;
 }
+
+#imp{
+  width:400px;
+  margin:auto;
+  margin-top:40px;
+}
+
   footer{
   text-align: center;
     background-color: #084745;
@@ -43,8 +54,9 @@
     line-height: 50px;
     margin-top: 3px;
     border-top: 2px solid #084745;
-    font-size: 25px;
+    font-size: 10px;
     font-weight: bold;
+    
 }
 
 

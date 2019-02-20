@@ -3,6 +3,8 @@
 // Number should be should be between 20-100
 $(document).ready(function () {
     var Random = Math.floor(Math.random() * 80 + 20)
+
+
     // now we will append a random number to the randomNumber id in html doc 
     $("#RandomNumber").text(Random);
 
@@ -28,12 +30,16 @@ $(document).ready(function () {
         wins++
         $("#totalwins").text(wins);
 
-    }
 
+        reset();
+
+    }
     function lose() {
         alert("you lost")
         losses++
         $("#totallosses").text(losses)
+
+        reset();
 
     }
 
@@ -96,6 +102,20 @@ $(document).ready(function () {
 
     });
 
+    //Here we will reset the game
+
+    function reset() {
+        var random = Math.floor(Math.random() * 80 + 20);
+        $("#RandomNumber").text(Random);
+        first
+        second
+        third
+        fourth,
+            Totalscore = 0;
+        $("#Guess").text(Totalscore);
+
+
+    }
 
 });
 
