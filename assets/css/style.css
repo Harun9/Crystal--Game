@@ -1,0 +1,51 @@
+
+   
+  h1 {
+    text-align: center;
+    background-color: #084745;
+    color: white;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom:3px;
+    border-top: 2px solid #084745;
+    font-size: 25px;
+    font-weight: bold;
+  }
+    
+
+.row{
+    border: solid 1px #cccc;
+  width:960px;
+  height:600px;
+}
+.col {
+  border: solid 15px #cccc;
+  color:black;
+  font-size: 15px;
+  width:45%;
+  }
+  
+    .crystals{
+     border: solid 2px black;
+    
+    }
+  
+  #check1, #check2, #check3, #check4 {
+  border: solid 5px yellow;
+  width:100px;
+
+
+}
+  footer{
+  text-align: center;
+    background-color: #084745;
+    color: white;
+    line-height: 50px;
+    margin-top: 3px;
+    border-top: 2px solid #084745;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+  

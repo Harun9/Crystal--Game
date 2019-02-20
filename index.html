@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Crystal Collector Game</title>
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <h1>Crystal Collector Game!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="crystal">
+                <h2> Instruction for Crystal Collector Game</h2>
+                </br>
+                <ul>
+
+                    <li>At the start of the game you will be given a random number.</li>
+                    </br>
+                    <li>They will be four crystals below. When you click on a crystal you will add a specific amount of
+                        point to your total score. </li>
+                    </br>
+                    <li>When you’re total score matches the random number that was given at the start of the game. You
+                        win
+                        if not you loss and the computer will notify </li>
+                    </br>
+                    <li>The value of each crystals is hidden from you until you click on it. Whenever the game starts
+                        the
+                        value of crystals changes so the value of each crystal is not the same each time
+                    </li>
+                    <li>Whenever the game starts the value of crystals changes so the value of each crystal is not the
+                        same
+                        each time
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col" id="game">
+                <h2>Let us Start The Game </h2>
+
+                <div class="crystals">
+                    <img src="assets/images/D.jpeg" id="check1">
+                    <img src="assets/images/C.jpeg" id="check2">
+                    <img src="assets/images/b.jpeg" id="check3">
+                    <img src="assets/images/a.jpg" id="check4">
+
+                </div>
+
+                <div class="winsAndLosses">
+                    <h2>Wins :
+                        <span id="totalwins"></span>
+                    </h2>
+                    <h2>
+                        Losses :
+                        <span id="totallosses"></span>
+                    </h2>
+                </div>
+
+                <div class="Totalscore">
+                    <h2> Your Total Score :
+                        <span id="Guess"></span>
+                    </h2>
+                </div>
+
+                <div class="Numbertoget">
+                    <h2> Number to get :
+                        <span id="RandomNumber"></span>
+                    </h2>
+                </div>
+
+
+            </div>
+        </div>
+        <footer>Harun Abdi 2019 &#169;</footer>
+
+        <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
