@@ -18,13 +18,13 @@ $(document).ready(function () {
 
 
     // Select random numbers for each of the crystal. each number will be different at the start of each game
-    // numbers will be between 2-8
+    // numbers will be between 2-10
     var first = Math.floor(Math.random() * 8 + 2);
     var second = Math.floor(Math.random() * 8 + 2);
     var third = Math.floor(Math.random() * 8 + 2);
     var fourth = Math.floor(Math.random() * 8 + 2);
 
-
+    // this will increase the wins 
     function winner() {
         alert("You win");
         wins++
@@ -34,6 +34,7 @@ $(document).ready(function () {
         reset();
 
     }
+    // This will inrease  the loss 
     function lose() {
         alert("you lost")
         losses++
@@ -105,13 +106,13 @@ $(document).ready(function () {
     //Here we will reset the game
 
     function reset() {
-        var random = Math.floor(Math.random() * 80 + 20);
+        Random = Math.floor(Math.random() * 80 + 20);
         $("#RandomNumber").text(Random);
-        first
-        second
-        third
-        fourth,
-            Totalscore = 0;
+        first = Math.floor(Math.random() * 8 + 2);
+        second = Math.floor(Math.random() * 8 + 2);
+        third = Math.floor(Math.random() * 8 + 2);
+        fourth = Math.floor(Math.random() * 8 + 2);
+        Totalscore = 0;
         $("#Guess").text(Totalscore);
 
 
